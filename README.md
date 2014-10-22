@@ -23,6 +23,8 @@ This is where we start, it is the student class's job to know how to save itself
 
 `@@db` is a database connection maintained by the Student class.
 
+The `.execute` method we get from requiring the `sqlite3` gem.
+
 The heart of this method is in three other methods:
   * `attributes_for_sql` returns the column names for the attributes in a sql statement.
   * `question_marks_for_sql` returns an amount of ? for SQL replacement.
