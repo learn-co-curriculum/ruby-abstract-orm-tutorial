@@ -173,3 +173,4 @@ This method is then called in the `save` method when values are inserted into th
 ## Resources
 
 * [Ruby's send method](http://rubymonk.com/learning/books/2-metaprogramming-ruby/chapters/25-dynamic-methods/lessons/65-send)
+* [Introduction: ORMs in Ruby](http://www.sitepoint.com/orm-ruby-introduction/)
