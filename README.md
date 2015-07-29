@@ -1,7 +1,4 @@
----
-tags: orm, oo, tutorial
-language: ruby
----
+
 
 # Building an ORM: Abstracted Example
 
