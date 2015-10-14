@@ -47,7 +47,7 @@ The `ATTRIBUTES` constant is serving the purpose of consolidating the knowledge 
   @@db = SQLite3::Database.new('student.db')
 ```
 
-`@@db` is a class variable that is loaded when RUby read the class definition and only then, not upon instantiation of new students by `Student.new`. Since it's a class variable, it will be accessible in both class methods and instance methods, just like the `ATTRIBUTES` constant.
+`@@db` is a class variable that is loaded when Ruby read the class definition and only then, not upon instantiation of new students by `Student.new`. Since it's a class variable, it will be accessible in both class methods and instance methods, just like the `ATTRIBUTES` constant.
 
 ## `self.attributes`
 
@@ -57,7 +57,7 @@ The `ATTRIBUTES` constant is serving the purpose of consolidating the knowledge 
   end
 ```
 
-Originally we were using the concrete or literal value `ATTRIBUTES` accross methods. However, when the structure of `ATTRIBUTES` changed from an array to a hash, the other methods broke. Rather than relying on the brittle structure of `ATTRIBUTES`, we encapsulated the access to the attribute names in class method `self.attributes`.
+Originally we were using the concrete or literal value `ATTRIBUTES` across methods. However, when the structure of `ATTRIBUTES` changed from an array to a hash, the other methods broke. Rather than relying on the brittle structure of `ATTRIBUTES`, we encapsulated the access to the attribute names in class method `self.attributes`.
 
 ## `self.attributes_hash`
 
@@ -120,7 +120,7 @@ We build the `self.create_table` and then immediately call it.
   end
 ```
 
-This is the routine that accesses the attribute names of a student via the attributes accessor (which returns just the keys of the `ATTRIBUTES` hash). For each attribute, declar an accessor. We could also have a macro method (like `create_table`) that would encapsulate the logic and then call it again.
+This is the routine that accesses the attribute names of a student via the attributes accessor (which returns just the keys of the `ATTRIBUTES` hash). For each attribute, declare an accessor. We could also have a macro method (like `create_table`) that would encapsulate the logic and then call it again.
 
 ## `attributes_for_sql`
 
