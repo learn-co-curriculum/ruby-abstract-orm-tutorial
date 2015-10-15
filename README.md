@@ -57,7 +57,7 @@ The `ATTRIBUTES` constant is serving the purpose of consolidating the knowledge 
   end
 ```
 
-Originally we were using the concrete or literal value `ATTRIBUTES` accross methods. However, when the structure of `ATTRIBUTES` changed from an array to a hash, the other methods broke. Rather than relying on the brittle structure of `ATTRIBUTES`, we encapsulated the access to the attribute names in class method `self.attributes`.
+Originally we were using the concrete or literal value `ATTRIBUTES` across methods. However, when the structure of `ATTRIBUTES` changed from an array to a hash, the other methods broke. Rather than relying on the brittle structure of `ATTRIBUTES`, we encapsulated the access to the attribute names in class method `self.attributes`.
 
 ## `self.attributes_hash`
 
