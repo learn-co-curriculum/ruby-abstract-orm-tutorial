@@ -120,7 +120,7 @@ We build the `self.create_table` and then immediately call it.
   end
 ```
 
-This is the routine that accesses the attribute names of a student via the attributes accessor (which returns just the keys of the `ATTRIBUTES` hash). For each attribute, declar an accessor. We could also have a macro method (like `create_table`) that would encapsulate the logic and then call it again.
+This is the routine that accesses the attribute names of a student via the attributes accessor (which returns just the keys of the `ATTRIBUTES` hash). For each attribute, declare an accessor. We could also have a macro method (like `create_table`) that would encapsulate the logic and then call it again.
 
 ## `attributes_for_sql`
 
