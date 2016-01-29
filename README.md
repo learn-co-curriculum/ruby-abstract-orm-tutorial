@@ -172,4 +172,4 @@ This method is then called in the `save` method when values are inserted into th
 * [Ruby's send method](http://rubymonk.com/learning/books/2-metaprogramming-ruby/chapters/25-dynamic-methods/lessons/65-send)
 * [Introduction: ORMs in Ruby](http://www.sitepoint.com/orm-ruby-introduction/)
 
-<a href='https://learn.co/lessons/ruby-abstract-orm-tutorial' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-abstract-orm-tutorial' title='Building an ORM: Abstracted Example'>Building an ORM: Abstracted Example</a> on Learn.co and start learning to code for free.</p>
